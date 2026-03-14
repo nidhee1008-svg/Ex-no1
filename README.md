@@ -56,9 +56,9 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|       1200🔢       01         12
-
-|         1200                    |
+|   1200H                        68H
+    1201H                        24H  
+    1202H                        00H
 
 #### Manual Calculations
 
@@ -109,8 +109,8 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
-
+|     2004H                    0005H|                          |
+      2006H                    0000H
 #### Manual Calculations
 
 (Add your calculation here)
@@ -158,7 +158,8 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|       2004H                  4444H
+|       2006H                   00H
 
 #### Manual Calculations
 
@@ -203,8 +204,8 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
-
+|         2004H                   2468H              |                          |
+         2006H                    0000H
 #### Manual Calculations
 
 (Add your calculation here)
