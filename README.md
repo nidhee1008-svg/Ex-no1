@@ -56,9 +56,9 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|   1200H                        68H
-    1201H                        24H  
-    1202H                        00H
+|       1200🔢       01         12
+
+|         1200                    |
 
 #### Manual Calculations
 
@@ -67,7 +67,7 @@ END
 ---
 
 ## OUTPUT IMAGE FROM MASM SOFTWARE
-
+![Output 1](exp1-1-output.png)
 ## 2. SUBTRACTION
 
 #### Algorithm
@@ -109,8 +109,8 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|     2004H                    0005H|                          |
-      2006H                    0000H
+|                         |                          |
+
 #### Manual Calculations
 
 (Add your calculation here)
@@ -119,7 +119,7 @@ END
 
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
-
+![Output 2](exp1-2-output.png)
 ## 3. MULTIPLICATION
 
 #### Algorithm
@@ -158,8 +158,7 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|       2004H                  4444H
-|       2006H                   00H
+|                         |                          |
 
 #### Manual Calculations
 
@@ -168,7 +167,7 @@ END
 ---
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
-
+![Output 3](exp1-3-output.png)
 ## 4. DIVISION
 
 #### Algorithm
@@ -204,15 +203,15 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|         2004H                   2468H              |                          |
-         2006H                    0000H
+|                         |                          |
+
 #### Manual Calculations
 
 (Add your calculation here)
 
 ---
 ## OUTPUT FROM MASM SOFTWARE
-
+![Output 4](exp1-4-output.png)
 
 
 ## RESULT
